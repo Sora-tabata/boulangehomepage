@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 動きのあるテーブル */
+
+.concertHistory {
+     background-color:#F4DEDC;
+     border-collapse: collapse;
+	 width: 600px;
+}
+
+.concertHistory td,.concertHistory th {
+     border-width: 2px;
+     border-style: solid;
+     border-color: #57413C;
+     padding: 5px;
+	 font-size:0.75em;
+}
+
+.concertHistory th  {
+     background-color: #57413C;
+     color: #fff;
+}
+
+.concertHistory tr:hover {
+     background-color: #cf47;
+}
